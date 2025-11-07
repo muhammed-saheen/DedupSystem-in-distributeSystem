@@ -26,7 +26,7 @@ namespace DedublicationOfDistributedSystem.Services
             var body = Encoding.UTF8.GetBytes(json);
 
             _channel.BasicPublishAsync("", _queueName, body: body);
-            Console.WriteLine($"📤 Published event: {evt.EventId}");
+            Console.WriteLine($"Published event: {evt.EventId}");
         }
 
       
