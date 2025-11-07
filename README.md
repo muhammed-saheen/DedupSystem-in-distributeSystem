@@ -90,10 +90,12 @@ You’ll see the console log:
 5️⃣ Verify Deduplication
 
 Try sending the same event ID multiple times:
+
 {
   "EventId": "evt_1001",
   "Payload": "Duplicate event test"
 }
+
 You’ll see:
 
 ⚠️ Duplicate event evt_1001, skipping...
