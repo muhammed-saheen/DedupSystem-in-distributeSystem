@@ -9,10 +9,10 @@ The system ensures that each event is processed and persisted exactly once, even
   
 Tech Stack
 
-  =>.NET 8 / C# — Application and WebSocket handling
-  =>RabbitMQ — Message queue for distributed event delivery
-  =>MySQL — Event persistence and deduplication store
-  =>Kubernetes (Minikube) — Container orchestration and scaling
+  .NET 8 / C# — Application and WebSocket handling
+  RabbitMQ — Message queue for distributed event delivery
+  MySQL — Event persistence and deduplication store
+  Kubernetes (Minikube) — Container orchestration and scaling
 
 Docker — Containerization of all services
 
