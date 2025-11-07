@@ -51,7 +51,7 @@ Docker — Containerization of all services
   └── README.md                      # Documentation file
 
 
-######   How to run locally    ######
+   How to run locally    
 
 1) Prerequisites
 
@@ -70,11 +70,11 @@ From the project directory, run:
   WebSocket endpoint: /ws
 
 3) connect Using WebSocket King
-
   =>Open WebSocket King
   =>Connect to your local WebSocket endpoint:
   =>ws://localhost:7254/ws
   =>Once connected, send a test message:
+  
   {
     "EventId": "evt_1001",
     "Payload": "Test event from local WebSocketKing"
