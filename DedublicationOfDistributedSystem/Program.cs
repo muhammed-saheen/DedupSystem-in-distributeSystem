@@ -13,6 +13,9 @@ builder.Services.AddSwaggerGen();
 
 var publisher = new WebSocketPublisher(builder.Configuration);
 var consumer = new EventConsumer(builder.Configuration);
+builder.Configuration
+    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+    .AddEnvironmentVariables();
 
 Task.Run(() => consumer.StartConsumingAsync());
 
